@@ -17,15 +17,15 @@ export const url  = {
     },
 
     airPollution(lat, lon){
-        return `http://pro.openweathermap.org/data/2.5/air_pollution?${lat}&${lon}`;
+        return `https://pro.openweathermap.org/data/2.5/air_pollution?${lat}&${lon}`;
     },
 
     reverseGeo(lat, lon)
     {
-        return `http://pro.openweathermap.org/geo/1.0/reverse?${lat}&${lon}&limit=5`;
+        return `https://pro.openweathermap.org/geo/1.0/reverse?${lat}&${lon}&limit=5`;
     },
     geo(query) {
-        return `http://pro.openweathermap.org/geo/1.0/direct?q=${query}&limit=5`;
+        return `https://pro.openweathermap.org/geo/1.0/direct?q=${query}&limit=5`;
 
     }
 }
